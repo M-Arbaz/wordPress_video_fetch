@@ -1,4 +1,4 @@
-<php?
+<?php
 function get_first_five_video_thumbnails() {
     $documentory_page_id = "page id"; 
     $content = get_post_field('post_content', $documentory_page_id);
@@ -22,3 +22,4 @@ function get_first_five_video_thumbnails() {
     return 'No videos found.';
 }
 add_shortcode('first_five_video_thumbnails', 'get_first_five_video_thumbnails');
+?>
